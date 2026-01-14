@@ -1,78 +1,45 @@
 
 
-
-# Painting with AI
+Painting with AI
+# Building AI course project
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Painting with AI is a creative project that explores how artificial intelligence can be used as a supportive tool in the process of creating digital art. The goal of the project is not to replace human creativity, but to investigate how AI can assist, inspire, and lower the threshold for artistic expression. Many people are interested in painting and visual art but may feel limited by a lack of technical skills, experience, or confidence. This project aims to address that gap by allowing users to collaborate with AI during the creative process.
+
+The idea behind Painting with AI is that users can provide simple inputs such as text descriptions, moods, color preferences, or rough sketches. Based on this input, the AI generates a digital painting or suggests visual variations that the user can further refine. In this way, the final artwork is created through interaction between the user and the AI, where the human remains in control of decisions and direction.
+
+The project is intended for hobby artists, students, designers, and curious beginners who want to explore creativity in a low pressure and accessible way. It highlights how AI can function as a creative partner rather than an automated solution. By focusing on exploration and inspiration, Painting with AI demonstrates how artificial intelligence can be applied to creative and cultural domains, not only technical or commercial problems. This project was created as part of the Building AI course project.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Many people are interested in art and painting but feel limited by a lack of technical skills, materials, or confidence. Creative expression is often seen as something that requires years of training, which can discourage beginners from even trying. At the same time, digital creativity tools are becoming more common, but they can still feel complex or intimidating.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+This project addresses the problem of accessibility in creative work. By using AI as a supportive tool, Painting with AI makes it easier for people to explore visual art without needing advanced skills. My personal motivation comes from an interest in creativity, design, and how technology can be used to support human expression rather than replace it. The topic is interesting because it shows how AI can be applied beyond efficiency and automation, into cultural and creative areas.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The solution would be used through a simple digital interface, such as a web or mobile application. A user starts by describing what they want to create using text, choosing colors, moods, or uploading a rough sketch. The AI then generates a digital painting or visual suggestions based on this input.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+The user can iterate on the result by adjusting the input or selecting variations. The tool is meant to be used in relaxed, creative situations, such as personal projects, studying, or inspiration sessions. Users may include hobby artists, students, designers, or people who want to experiment with art in an easy and accessible way.
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The project would rely on image data and text descriptions. Training data could consist of publicly available images of paintings and artworks, as well as labeled text describing artistic styles, colors, and moods. No personal data is required.
+AI methods could include neural networks and generative models trained to recognize visual patterns and artistic styles. Natural language processing would be used to interpret user text input and connect it to visual features in the generated artwork.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The project does not guarantee high-quality or meaningful artwork in all cases. AI-generated images may lack emotional depth or originality, and results depend heavily on the training data. There are also ethical considerations related to copyright, artistic ownership, and how AI-generated art should be credited or shared. The project does not aim to replace artists or traditional art education.
 
 ## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+In the future, the project could be expanded with more advanced customization options, multiple artistic styles, and interactive editing tools. It could also grow into a fully developed application with user accounts and saved projects. Further development would require technical skills, more data, and collaboration with designers or artists.
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+This project was created as part of the Building AI course project. Inspiration comes from the intersection of art, creativity, and artificial intelligence.
